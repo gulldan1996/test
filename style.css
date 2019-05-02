@@ -7,12 +7,16 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 800px;
 }
 
 main article {
   width: 100px;
   height: 200px;
   background-color: grey;
-  margin: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
